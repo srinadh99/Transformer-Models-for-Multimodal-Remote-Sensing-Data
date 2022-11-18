@@ -1,6 +1,6 @@
 # Transformers-Models-for-Multimodal-Remote-Sensing-Data
 
-For any queries, please contact at ee19resch01008@iith.ac.in
+For any queries, please contact at srinadhml99@gmail.com
 
 # Details
 In this work, I studied the performance of a new Multimodal Fusion Transformer (MFT) for Remote Sensing (RS) Image Classification proposed recently. The link for the original MFT paper is here https://arxiv.org/pdf/2203.16952.pdf. 
