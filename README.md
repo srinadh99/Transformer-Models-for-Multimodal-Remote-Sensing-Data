@@ -18,7 +18,7 @@ I have made some changes to the original codes.
 3. I have updated the codes also with the 'token_type' to call as either 'channel' or 'pixel' instaed of writing two separate codes like in the original work.
 
 # Our Next Contributions
-Even the MFT model is doing better interms of fusing multimodal data and obtaining the complimentary information, there are several limitations with respect to speed etc. In future, planning to study on this.
+Even the MFT model is doing better interms of fusing multimodal data and obtaining the complimentary information, there are several limitations with respect to speed etc.
 
 We will update soon .....
 
