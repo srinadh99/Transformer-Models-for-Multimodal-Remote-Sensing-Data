@@ -25,11 +25,14 @@ Random (HSI) | 95.45 | 92.85 | 93.91
 Channel (HSI+LiDAR) | 98.05 | 96.96 | 97.38
 Pixel (HSI+LiDAR) | 95.47 | 91.28 | 93.93
 
-#### The confusion matrix for CLS random, channel, pixel tokenizations and the train loss plots are here, respectively (from left top to right bottom).
+#### The confusion matrix for CLS random, channel, pixel tokenizations and the train loss plots are here, respectively (from top to bottom).
 
 ![plot](./MFT_Plots/HSI_Confusionmatrix.png)
-![plot](./MFT_Plots/HSILidar_pixel_Confusionmatrix.png)
+
 ![plot](./MFT_Plots/HSILidar_channel_Confusionmatrix.png)
+
+![plot](./MFT_Plots/HSILidar_pixel_Confusionmatrix.png)
+
 ![plot](./MFT_Plots/epoch_vs_train_loss.png)
 
 # Our Next Contributions
