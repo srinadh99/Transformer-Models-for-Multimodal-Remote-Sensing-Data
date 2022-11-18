@@ -10,7 +10,12 @@ Transformer-based models are widely used in several image-processing application
 In this work, I specifically studied the performance of the MFT model with vaying the CLS token. Specifically, I used the CLS token to be 'random', processed through 'channel' and 'pixel' tokenization methods. I considered the 'Trneto' dataset to validate the performance of the MFT model.
 The performance is studies using training loss and confusion matrix. 
 
-### I have updated the codes also so that we can just call the 'token_type' as either 'channel' or 'pixel' instaed of writing two separate codes like in the original work.
+# Code updates
+I have made some changes to the original codes.
+
+1. Two transformer models named 'MFT' and 'Transformer' are written so that we can train or test the model performance with (HSI + other multimodal data) and without (HSI only) multimodal data respectively.
+2. Transformer parameters such as 'number of HSI tokens', 'heads', 'depth', 'mlp_dimension' are made easy to tune.
+3. I have updated the codes also with the 'token_type' to call as either 'channel' or 'pixel' instaed of writing two separate codes like in the original work.
 
 # Our Next Contributions
 Even the MFT model is doing better interms of fusing multimodal data and obtaining the complimentary information, there are several limitations with respect to speed etc. In future, planning to study on this.
