@@ -19,11 +19,11 @@ I have made some changes to the original codes.
 
 # Results
 Using Trento data
-CLS Token | Overall Accuracy (OA) | Average Accuracy (AA) | KAPPA Score
+CLS Token | Overall Accuracy (OA) | Average Accuracy (AA) | KAPPA Score | Number of Parameters
 --- | --- | --- | --- 
-Random (HSI) | 95.45 | 92.85 | 93.91 
-Channel (HSI+LiDAR) | 98.05 | 96.96 | 97.38
-Pixel (HSI+LiDAR) | 95.47 | 91.28 | 93.93
+Random (HSI) | 95.45 | 92.85 | 93.91 | 262758
+Channel (HSI+LiDAR) | 98.05 | 96.96 | 97.38 | 263526
+Pixel (HSI+LiDAR) | 95.47 | 91.28 | 93.93 | 263526
 
 #### The confusion matrix for CLS random, channel, pixel tokenizations and the train loss plots are here, respectively (from top to bottom).
 
@@ -34,6 +34,9 @@ Pixel (HSI+LiDAR) | 95.47 | 91.28 | 93.93
 ![plot](./MFT_Plots/HSILidar_pixel_Confusionmatrix.png)
 
 ![plot](./MFT_Plots/epoch_vs_train_loss.png)
+
+# Observations
+The MFT model is studied with only HSI images and with both HSI and LiDAR images for the land-cover classification task using Trento data. The performance metrics are clearly indicating that the MFT model with 'channel' tokenization is performing better than the 'random' CLS and 'pixel' tokenized CLS. Moreover the gain in performance is with a few number of additional trainable parameters.
 
 # Our Next Contributions
 Even the MFT model is doing better interms of fusing multimodal data and obtaining the complimentary information, there are several limitations with respect to speed etc.
