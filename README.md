@@ -1,4 +1,4 @@
-# Transformers-Models-for-Multimodal-Remote-Sensing-Data
+# Transformer-Models-for-Multimodal-Remote-Sensing-Data
 
 For any queries, please contact at ee19resch01008@iith.ac.in
 
