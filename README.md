@@ -20,7 +20,7 @@ I have made some changes to the original codes.
 # Results
 Using Trento data
 CLS Token | Overall Accuracy (OA) | Average Accuracy (AA) | KAPPA Score | Number of Parameters
---- | --- | --- | --- 
+--- | --- | --- | --- | ---
 Random (HSI) | 95.45 | 92.85 | 93.91 | 262758
 Channel (HSI+LiDAR) | 98.05 | 96.96 | 97.38 | 263526
 Pixel (HSI+LiDAR) | 95.47 | 91.28 | 93.93 | 263526
