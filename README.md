@@ -40,7 +40,7 @@ The MFT model is studied with only HSI images and with both HSI and LiDAR images
 
 # Our Next Contributions
 Even though the MFT model is doing better in fusing multimodal data and obtaining complimentary information, there are several limitations concerning speed, etc.
-Please check our latest work https://github.com/srinadh99/VISION-TRANSFORMER-DRIVEN-LIDAR-DATA-FUSION-FOR-ENHANCED-HYPERSPECTRAL-IMAGE-CLASSIFICATION
+1. Please check our latest work https://github.com/srinadh99/VISION-TRANSFORMER-DRIVEN-LIDAR-DATA-FUSION-FOR-ENHANCED-HYPERSPECTRAL-IMAGE-CLASSIFICATION
 # Acknowledgment
 We considered part of our codes from the following source.
 1. https://github.com/AnkurDeria/MFT (The Trento dataset also can be downloaded from here)
