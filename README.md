@@ -2,7 +2,7 @@
 
 For any queries, please contact at srinadhml99@gmail.com
 
-# Details
+# Description
 In this work, I studied the performance of a new Multimodal Fusion Transformer (MFT) for Remote Sensing (RS) Image Classification proposed recently. The link for the original MFT paper is here https://arxiv.org/pdf/2203.16952.pdf. 
 
 Transformer-based models are widely used in several image-processing applications due to their promising performance over Convolutional Neural Networks (CNNs). However, there are certain challenges while adapting transformer models for the Hyperspectral Image (HSI) classification tasks. In RS image classification, using images from multiple sources and exploiting complementary information is getting more attention with the increased availability of multi-sensor data. However, considering the patch-level processing in the transformer models and the number of spectral bands in the HSI data or the fused data (HSI+other modalities), the number of model parameters is becoming a major issue. A new transformer-based architecture with novel attention and tokenization mechanisms is proposed in the MFT work to obtain complementary information from other modalities through an external CLS token. They showed that the CLS token extracted from other multimodal data generalises well compared to the random CLS token used in general transformer models.
